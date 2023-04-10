@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Try Out Online</title>
+    <style>
+      /* CSS untuk mengatur tampilan halaman web */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      form {
+        margin: 0 auto;
+        max-width: 500px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"], input[type="radio"] {
+        display: block;
+        margin-bottom: 20px;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h2>Try Out Online</h2>
+      <label>Pertanyaan 1: Siapa presiden pertama Indonesia?</label>
+      <input type="text" name="jawaban1">
+
+      <label>Pertanyaan 2: Berapa hasil dari 2 + 2?</label>
+      <input type="radio" name="jawaban2" value="3"> 3<br>
+      <input type="radio" name="jawaban2" value="4"> 4<br>
+      <input type="radio" name="jawaban2" value="5"> 5<br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
